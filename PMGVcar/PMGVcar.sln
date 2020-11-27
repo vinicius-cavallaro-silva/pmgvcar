@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PMGVcar", "PMGVcar\PMGVcar.csproj", "{A56B5282-F146-4BFF-B430-55BA3498A9E0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ViewAgenda", "ViewAgenda", "{CB2A185A-5911-4C80-80D0-783DF1E840A2}"
+	ProjectSection(SolutionItems) = preProject
+		PMGVcar\Agenda.cs = PMGVcar\Agenda.cs
+		PMGVcar\Agenda.Designer.cs = PMGVcar\Agenda.Designer.cs
+		PMGVcar\Agenda.resx = PMGVcar\Agenda.resx
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ViewEstoque", "ViewEstoque", "{C07C495D-88E5-4C4F-BC7D-97705C1DEDA9}"
+	ProjectSection(SolutionItems) = preProject
+		PMGVcar\Estoque.cs = PMGVcar\Estoque.cs
+		PMGVcar\Estoque.Designer.cs = PMGVcar\Estoque.Designer.cs
+		PMGVcar\Estoque.resx = PMGVcar\Estoque.resx
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ViewCarro", "ViewCarro", "{17CBFF25-7A2D-4630-B9E5-AC7138E1282F}"
+	ProjectSection(SolutionItems) = preProject
+		PMGVcar\Carro.cs = PMGVcar\Carro.cs
+		PMGVcar\Carro.Designer.cs = PMGVcar\Carro.Designer.cs
+		PMGVcar\Carro.resx = PMGVcar\Carro.resx
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model", "Model", "{10190FC9-627F-49DF-87A7-C7D38BD0B5DA}"
+	ProjectSection(SolutionItems) = preProject
+		PMGVcar\ModelAgenda.cs = PMGVcar\ModelAgenda.cs
+		PMGVcar\ModelCarro.cs = PMGVcar\ModelCarro.cs
+		PMGVcar\ModelEstoque.cs = PMGVcar\ModelEstoque.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BD", "BD", "{D9B1811E-48F6-4621-A734-2CF11CD6F46F}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\OneDrive\Área de Trabalho\PIM\PMGVcar - Copia.xls = ..\..\..\OneDrive\Área de Trabalho\PIM\PMGVcar - Copia.xls
+		..\..\..\OneDrive\Área de Trabalho\PIM\PMGVcar.xls = ..\..\..\OneDrive\Área de Trabalho\PIM\PMGVcar.xls
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controller", "Controller", "{91032321-CAFB-4EB1-AE46-38BEA53E82FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAO", "DAO", "{3690020F-9F26-403E-9FE2-50ED17A53801}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C99FBB87-AA7B-4451-B975-1FCD52347D4E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A56B5282-F146-4BFF-B430-55BA3498A9E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A56B5282-F146-4BFF-B430-55BA3498A9E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A56B5282-F146-4BFF-B430-55BA3498A9E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A56B5282-F146-4BFF-B430-55BA3498A9E0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1F5BF6AE-611B-445D-AD53-BBEF5F3772EF}
+	EndGlobalSection
+EndGlobal
