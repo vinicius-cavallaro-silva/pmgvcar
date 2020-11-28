@@ -26,24 +26,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ViewCarro", "ViewCarro", "{
 		PMGVcar\Carro.resx = PMGVcar\Carro.resx
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model", "Model", "{10190FC9-627F-49DF-87A7-C7D38BD0B5DA}"
-	ProjectSection(SolutionItems) = preProject
-		PMGVcar\ModelAgenda.cs = PMGVcar\ModelAgenda.cs
-		PMGVcar\ModelCarro.cs = PMGVcar\ModelCarro.cs
-		PMGVcar\ModelEstoque.cs = PMGVcar\ModelEstoque.cs
-	EndProjectSection
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BD", "BD", "{D9B1811E-48F6-4621-A734-2CF11CD6F46F}"
 	ProjectSection(SolutionItems) = preProject
 		..\..\..\OneDrive\Área de Trabalho\PIM\PMGVcar - Copia.xls = ..\..\..\OneDrive\Área de Trabalho\PIM\PMGVcar - Copia.xls
 		..\..\..\OneDrive\Área de Trabalho\PIM\PMGVcar.xls = ..\..\..\OneDrive\Área de Trabalho\PIM\PMGVcar.xls
 	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controller", "Controller", "{91032321-CAFB-4EB1-AE46-38BEA53E82FF}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAO", "DAO", "{3690020F-9F26-403E-9FE2-50ED17A53801}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C99FBB87-AA7B-4451-B975-1FCD52347D4E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

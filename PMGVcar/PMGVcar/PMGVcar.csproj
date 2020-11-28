@@ -77,6 +77,19 @@
       <DependentUpon>Carro.cs</DependentUpon>
     </Compile>
     <Compile Include="CarroDao.cs" />
+    <Compile Include="Controller\Controller.cs" />
+    <Compile Include="DAO\AtualizarEstoque.cs" />
+    <Compile Include="DAO\AtualizarAgenda.cs" />
+    <Compile Include="DAO\AtualizarCarro.cs" />
+    <Compile Include="DAO\BuscarAgenda.cs" />
+    <Compile Include="DAO\BuscarEstoque .cs" />
+    <Compile Include="DAO\BuscarCarro.cs" />
+    <Compile Include="DAO\CadastroEstoque.cs" />
+    <Compile Include="DAO\CadastroAgenda .cs" />
+    <Compile Include="DAO\ExclusãoAgenda.cs" />
+    <Compile Include="DAO\ExclusãoEstoque .cs" />
+    <Compile Include="DAO\ExclusãoCarro.cs" />
+    <Compile Include="DAO\CadastroCarro.cs" />
     <Compile Include="Estoque.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,9 +108,10 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="ModelAgenda.cs" />
-    <Compile Include="ModelCarro.cs" />
-    <Compile Include="ModelEstoque.cs" />
+    <Compile Include="Model\ConectionDatabase.cs" />
+    <Compile Include="Model\DatatableAgenda .cs" />
+    <Compile Include="Model\DatatableEstoque.cs" />
+    <Compile Include="Model\DatatableCarro.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Agenda.resx">
@@ -138,5 +152,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
